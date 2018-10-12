@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VikingLandscaping", "VikingLandscaping\VikingLandscaping.csproj", "{290F6D63-DB47-457A-9B40-C799EA50F97E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VikingLandscaping.Tests", "VikingLandscaping.Tests\VikingLandscaping.Tests.csproj", "{0F32F1BF-9F86-4756-98D9-C063B25B567A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{290F6D63-DB47-457A-9B40-C799EA50F97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{290F6D63-DB47-457A-9B40-C799EA50F97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{290F6D63-DB47-457A-9B40-C799EA50F97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{290F6D63-DB47-457A-9B40-C799EA50F97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F32F1BF-9F86-4756-98D9-C063B25B567A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F32F1BF-9F86-4756-98D9-C063B25B567A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F32F1BF-9F86-4756-98D9-C063B25B567A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F32F1BF-9F86-4756-98D9-C063B25B567A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A922238E-CC8A-40E4-9DC3-90FFD98A1031}
+	EndGlobalSection
+EndGlobal
