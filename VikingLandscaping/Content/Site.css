@@ -32,7 +32,7 @@ body {
     border-color: #080808;
 }
 
-/*### Image Gallary*/
+/*### Image Gallary ###*/
 .gallery {
     border: 1px solid #ccc;
     position: relative;
@@ -98,4 +98,99 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+/*### parallax ###*/
+.navbar-nav {
+    float: right;
+    padding-right: 20%;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #222;
+}
+.parallax1 {
+    /* The image used */
+    background-image: url("../../Images/landscaping01.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 36px;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../../Images/landscaping02.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 36px;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../../Images/landscaping03.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 36px;
+}
+
+.content-first {
+    min-height: 500px;
+    background-image: url(../../Images/landscaping04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: 36px;
+}
+
+.content-second {
+    height: 500px;
+    background-image: url(../../Images/landscaping06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    font-size: 36px;
+}
+
+.text-block-left{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 500px;
+    background-color: forestgreen;
+    opacity: 0.7;
+    color: white;
+    margin-right: 70%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.text-block-right {
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 0px;
+    height: 500px;
+    background-color: forestgreen;
+    opacity: 0.7;
+    color: white;
+    margin-left: 70%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
