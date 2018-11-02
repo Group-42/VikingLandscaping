@@ -20,11 +20,11 @@
 input,
 select,
 textarea {
-    max-width: 280px;
+    max-width: 80%;
 }
 
 body {
-    background-color: #f0ead6;
+    background-color: #fff;
 }
 
 .navbar-inverse {
@@ -124,4 +124,9 @@ body {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.myContactForm {
+    width: 80%;
+
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using VikingLandscaping.Models;
 
 namespace VikingLandscaping.Controllers
 {
@@ -15,16 +16,20 @@ namespace VikingLandscaping.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Here you can write something about the business and their owners.";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Here you can input some text to explain why people should contact you.";
 
-            return View();
+            ContactFormModel contactFormModel;
+            contactFormModel = new ContactFormModel();
+
+
+            return View(contactFormModel);
         }
 
         public ActionResult Services()
