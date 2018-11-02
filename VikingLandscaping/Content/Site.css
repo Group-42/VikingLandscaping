@@ -32,6 +32,75 @@ body {
     border-color: #080808;
 }
 
+/*### Image Gallary ###*/
+.gallery {
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+.gallery img {
+    opacity: 1;
+    width: 100%;
+    height: 200px;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.gallery:hover img {
+    opacity: 0.3;
+}
+
+.gallery:hover .middle {
+    opacity: 1;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    /*padding: 16px 32px;*/
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*### parallax ###*/
 .navbar-nav {
     float: right;
     padding-right: 20%;

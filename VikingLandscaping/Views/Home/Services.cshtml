@@ -1,7 +1,54 @@
 ﻿@{
     ViewBag.Title = "Services";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<h2>Responsive Image Gallery</h2>
+<h4>Resize the browser window to see the effect.</h4>
 
-<p>Use this area to provide additional information.</p>
+<div class="responsive">
+    <div class="gallery">
+        <img src="../../Images/landscaping14.jpg" alt="Cinque Terre" width="600" height="400">
+        <div class="middle">
+            <div class="desc">I don't know... Potato Planting</div>
+        </div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="img_forest.jpg">
+            <img src="../../Images/landscaping11.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="middle">
+            <div class="desc">Flower planting</div>
+        </div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="img_lights.jpg">
+            <img src="../../Images/landscaping08.jpg" alt="Northern Lights" width="600" height="400">
+        </a>
+        <div class="middle">
+            <div class="desc">Weed removal</div>
+        </div>
+    </div>
+</div>
+
+<div class="responsive">
+    <div class="gallery">
+        <a target="_blank" href="img_mountains.jpg">
+            <img src="../../Images/landscaping05.jpg" alt="Mountains" width="600" height="400">
+        </a>
+        <div class="middle">
+            <div class="desc">Landscaping</div>
+        </div>
+    </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+    <p>This example use media queries to re-arrange the images on different screen sizes: for screens larger than 700px wide, it will show four images side by side, for screens smaller than 700px, it will show two images side by side. For screens smaller than 500px, the images will stack vertically (100%).</p>
+    <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+</div>
