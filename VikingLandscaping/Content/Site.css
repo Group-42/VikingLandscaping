@@ -23,6 +23,25 @@ textarea {
     max-width: 80%;
 }
 
+.companyInfo {
+    text-align: right;
+    float: left;
+}
+
+.greenText {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(86,243,25,1);
+    font-size: 26px;
+}
+
+.extraText {
+    font-weight: bold;
+    color: rgba(55,163,31,1);
+    font-size: 20px !important;
+}
+
 body {
     background-color: #fff;
 }
