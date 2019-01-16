@@ -34,7 +34,7 @@ namespace VikingLandscaping.Controllers
 
         public ActionResult Services()
         {
-            ViewBag.Message = "The following are the services we can provide.";
+            ViewBag.Message = "Våra tjänster";
 
             return View();
         }
