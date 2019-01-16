@@ -111,27 +111,27 @@ body {
 }
 .parallax1 {
     /* The image used */
-    background-image: url("../../Images/landscaping01.jpg");
+    background-image: url("../../Images/landscaping07.jpg");
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     font-size: 36px;
 }
 
 .parallax2 {
     /* The image used */
-    background-image: url("../../Images/landscaping02.jpg");
+    background-image: url("../../Images/landscaping14.jpg");
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     font-size: 36px;
 }
 
@@ -139,38 +139,45 @@ body {
     /* The image used */
     background-image: url("../../Images/landscaping03.jpg");
     /* Set a specific height */
-    min-height: 500px;
+    min-height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     font-size: 36px;
 }
 
 .content-first {
-    min-height: 500px;
-    background-image: url(../../Images/landscaping04.jpg);
+    min-height: 700px;
+    background-image: url(../../Images/landscaping01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
-    font-size: 36px;
 }
 
 .content-second {
-    height: 500px;
+    height: 700px;
     background-image: url(../../Images/landscaping06.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
-    font-size: 36px;
 }
 
-.text-block-left{
+.content-third {
+    height: 700px;
+    background-image: url(../../Images/landscaping15.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+
+.text-block-left {
     position: relative;
     top: 0px;
     left: 0px;
-    height: 500px;
+    height: 700px;
     background-color: forestgreen;
     opacity: 0.7;
     color: white;
@@ -178,6 +185,7 @@ body {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 20px;
 }
 
 .text-block-right {
@@ -185,14 +193,16 @@ body {
     float: right;
     top: 0px;
     right: 0px;
-    height: 500px;
+    height: 700px;
     background-color: forestgreen;
     opacity: 0.7;
-    color: white;
+    color: #fff;
     margin-left: 70%;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 20px;
+    
 }
 
 .myContactForm {
