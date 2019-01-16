@@ -194,6 +194,14 @@ body {
     color: black;
 }
 
+.owner1-box {
+    height: 300px;
+    background-image: url(../../Images/Owner1.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: black;
+}
+
 
 .text-block-left {
     position: relative;
@@ -225,6 +233,22 @@ body {
     padding-right: 10px;
     font-size: 20px;
     
+}
+
+.owner-text-block {
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 0px;
+    height: 300px;
+    background-color: #bfe6bf;
+    opacity: 0.7;
+    color: #fff;
+    margin-left: 70%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
 }
 
 .myContactForm {
