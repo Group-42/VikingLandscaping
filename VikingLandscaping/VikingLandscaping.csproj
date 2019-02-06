@@ -179,6 +179,9 @@
     <Content Include="Images\landscaping14.jpg" />
     <Content Include="Images\landscaping15.jpg" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\Owner1.jpg" />
+    <Content Include="Images\Owner2.jpg" />
+    <Content Include="Images\Owner3.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
