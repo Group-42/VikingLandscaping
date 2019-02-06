@@ -13,16 +13,7 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <div class="companyInfo">
-                Mobil: 076-920 16 88
-                Mejl: info@gronamiljoer.se
-                Adress: Nordanväg 18, Lund
-            </div>
-            <div style="text-align:right; float:right;">
-                <p>&copy; @DateTime.Now.Year - Viking Landscaping</p>
-            </div>
-        </footer>
+        @Html.Partial("_Footer")
     </div>
 
     @Scripts.Render("~/bundles/jquery")

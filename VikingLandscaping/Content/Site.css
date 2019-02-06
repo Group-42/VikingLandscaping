@@ -268,3 +268,13 @@ responsive .middle {
         width: 100%;
     }
 }
+
+.footer {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.footer_text {
+    margin-top: 15px;
+}
