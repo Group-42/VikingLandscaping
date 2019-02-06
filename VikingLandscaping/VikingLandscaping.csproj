@@ -177,6 +177,7 @@
     <Content Include="Images\landscaping12.jpg" />
     <Content Include="Images\landscaping13.jpg" />
     <Content Include="Images\landscaping14.jpg" />
+    <Content Include="Images\landscaping15.jpg" />
     <Content Include="Images\logo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -213,6 +214,7 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Services.cshtml" />
     <Content Include="Views\Shared\_NavBar.cshtml" />
+    <Content Include="Views\Home\Sent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
