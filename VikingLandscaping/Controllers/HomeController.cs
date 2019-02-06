@@ -16,7 +16,7 @@ namespace VikingLandscaping.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Here you can write something about the business and their owners.";
+            ViewBag.Message = "Vårt team";
 
             return View();
         }
