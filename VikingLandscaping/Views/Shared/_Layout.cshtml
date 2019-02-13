@@ -9,12 +9,17 @@
 </head>
 <body>
     @Html.Partial("_NavBar")
-    
+
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        @Html.Partial("_Footer")
     </div>
+    <hr />
+    <div class="footer-style">
+        <div class="container">
+            @Html.Partial("_Footer")
+        </div>
+    </div>
+    
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
