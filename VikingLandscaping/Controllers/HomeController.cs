@@ -26,7 +26,7 @@ namespace VikingLandscaping.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Here you can input some text to explain why people should contact you.";
+            ViewBag.Message = "Vänligen meddela oss om du har några frågor, så kommer vi att svara på lämpligt sätt.";
 
             ContactFormModel contactFormModel;
             contactFormModel = new ContactFormModel();

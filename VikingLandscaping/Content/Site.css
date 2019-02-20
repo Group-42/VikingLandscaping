@@ -1,6 +1,5 @@
 ﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -275,6 +274,16 @@ responsive .middle {
     text-align: center;
 }
 
+.footer-style {
+    background-image: linear-gradient(white, green);
+}
+
 .footer_text {
     margin-top: 15px;
+}
+
+.link-colour1 {
+    color: lightskyblue;
+    background-color: transparent;
+    text-decoration: none;
 }
