@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "service": "Fastighetsskötsel-utemiljö, löpande skötsel och underhåll av Er trädgård",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping14.jpg"
+    },
+    {
+      "id": 2,
+      "service": "Rådgivning, design, trädgårdsritningar och skötselplaner",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping11.jpg"
+    },
+    {
+      "id": 3,
+      "service": "Anläggning och ombyggnad av utemiljöer",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping08.jpg"
+    },
+    {
+      "id": 4,
+      "service": "Plantering, grönyteskötsel, beskärning av buskar och träd, trädvård",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping05.jpg"
+    },
+    {
+      "id": 5,
+      "service": "Beläggningsarbeten; stensättning, plattläggning och betong",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping08.jpg"
+    },
+    {
+      "id": 6,
+      "service": "Byggnation av trädäck, plank, staket, murar, cykelförråd och miljöstationer",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping08.jpg"
+    },
+    {
+      "id": 7,
+      "service": "Anläggning av gröna tak",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping08.jpg"
+    },
+    {
+      "id": 8,
+      "service": "Anläggning av trädgårdsdammar",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping08.jpg"
+    },
+    {
+      "id": 9,
+      "service": "Montering av park- och lekutrustning",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping08.jpg"
+    },
+    {
+      "id": 10,
+      "service": "Underhåll av hårdytor, vinterunderhåll mm. mm.....",
+      "details": "mumble mumble they took my stapler mumble mumble",
+      "image": "../../Images/landscaping08.jpg"
+    }
+  ]

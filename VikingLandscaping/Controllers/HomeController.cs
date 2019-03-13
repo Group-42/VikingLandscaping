@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using System.Web.Mvc;
 using VikingLandscaping.Models;
-using System.Net;
 using System.Net.Mail;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using System.Text;
+using System;
 
 namespace VikingLandscaping.Controllers
 {
@@ -64,6 +63,15 @@ namespace VikingLandscaping.Controllers
         public ActionResult Services()
         {
             ViewBag.Message = "Våra tjänster";
+            
+            var services = JsonConvert.DeserializeObject<List<ServiceModel>>(System.IO.File.ReadAllText(Server.MapPath("~/Data/ServiceData.json"), Encoding.UTF8));
+
+            return View(services);
+        }
+
+        public ActionResult Details()
+        {
+            ViewBag.Message = "Details";
 
             return View();
         }

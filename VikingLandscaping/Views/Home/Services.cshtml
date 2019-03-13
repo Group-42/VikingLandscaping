@@ -1,4 +1,7 @@
-﻿@{
+﻿@model List<VikingLandscaping.Models.ServiceModel>
+@{
+    /**/
+
     ViewBag.Title = "Tjänster";
 }
 <h3>@ViewBag.Message</h3>
@@ -15,117 +18,20 @@
     Vi lever för den gröna miljön!
 </div>
 
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_forest.jpg">
-            <img src="../../Images/landscaping14.jpg" alt="Potato planting" width="600" height="400">
-            <div class="middle">
-                <div class="desc">
-                    Fastighetsskötsel-utemiljö,
-                    <br />löpande skötsel och underhåll av Er trädgård
+@foreach (var item in Model)
+{
+    <div class="responsive">
+        <div class="gallery">
+            <a href='@Url.Action("Details", "Home")'>
+                <img src="@item.image" alt="Potato planting" width="600" height="400">
+                <div class="middle">
+                    <div class="desc">
+                        @item.Service
+                    </div>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
     </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_forest.jpg">
-            <img src="../../Images/landscaping11.jpg" alt="Flower Planting" width="600" height="400">
-            <div class="middle">
-                <div class="desc">Rådgivning, design, trädgårdsritningar och skötselplaner</div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-            <img src="../../Images/landscaping08.jpg" alt="Weed removal" width="600" height="400">
-            <div class="middle">
-                <div class="desc">Anläggning och ombyggnad av utemiljöer</div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_mountains.jpg">
-            <img src="../../Images/landscaping05.jpg" alt="Mountains" width="600" height="400">
-            <div class="middle">
-                <div class="desc">Plantering, grönyteskötsel, beskärning av buskar och träd, trädvård</div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-            <img src="../../Images/landscaping08.jpg" alt="Weed removal" width="600" height="400">
-            <div class="middle">
-                <div class="desc">Beläggningsarbeten; stensättning, plattläggning och betong</div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-            <img src="../../Images/landscaping08.jpg" alt="Weed removal" width="600" height="400">
-            <div class="middle">
-                <div class="desc">Byggnation av trädäck, plank, staket, murar, cykelförråd och miljöstationer</div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-            <img src="../../Images/landscaping08.jpg" alt="Weed removal" width="600" height="400">
-            <div class="middle">
-                <div class="desc">Anläggning av gröna tak</div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-            <img src="../../Images/landscaping08.jpg" alt="Weed removal" width="600" height="400">
-            <div class="middle">
-                <div class="desc">Anläggning av trädgårdsdammar</div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-            <img src="../../Images/landscaping08.jpg" alt="Weed removal" width="600" height="400">
-            <div class="middle">
-                <div class="desc">Montering av park- och lekutrustning</div>
-            </div>
-        </a>
-    </div>
-</div>
-
-<div class="responsive">
-    <div class="gallery">
-        <a target="_blank" href="img_lights.jpg">
-            <img src="../../Images/landscaping08.jpg" alt="Weed removal" width="600" height="400">
-            <div class="middle">
-                <div class="desc">Underhåll av hårdytor, vinterunderhåll mm. mm.....</div>
-            </div>
-        </a>
-    </div>
-</div>
+}
 
 <div class="clearfix"></div>
