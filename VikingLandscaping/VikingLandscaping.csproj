@@ -186,6 +186,11 @@
     <Content Include="Images\Owner1.jpg" />
     <Content Include="Images\Owner2.jpg" />
     <Content Include="Images\Owner3.jpg" />
+    <Content Include="Images\text_background1.png" />
+    <Content Include="Images\text_background2.png" />
+    <Content Include="Images\text_background3.png" />
+    <Content Include="Images\text_background4.png" />
+    <Content Include="Images\text_background5.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">

@@ -98,14 +98,14 @@ responsive .middle {
     height: 357px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .responsive {
         width: 100%;
     }
@@ -128,99 +128,169 @@ responsive .middle {
 }
 .parallax1 {
     /* The image used */
-    background-image: url("../../Images/landscaping07.jpg");
+    background-image: url("../Images/landscaping07.jpg");
     /* Set a specific height */
     min-height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     font-size: 36px;
 }
 
 .parallax2 {
     /* The image used */
-    background-image: url("../../Images/landscaping14.jpg");
+    background-image: url("../Images/landscaping14.jpg");
     /* Set a specific height */
     min-height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     font-size: 36px;
 }
 
 .parallax3 {
     /* The image used */
-    background-image: url("../../Images/landscaping03.jpg");
+    background-image: url("../Images/landscaping03.jpg");
     /* Set a specific height */
     min-height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     font-size: 36px;
 }
 
 .content-first {
-    min-height: 700px;
-    background-image: url(../../Images/landscaping01.jpg);
+    background-image: url(../Images/landscaping01.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
 }
 
 .content-second {
-    height: 700px;
-    background-image: url(../../Images/landscaping06.jpg);
+    background-image: url(../Images/landscaping06.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: right;
     color: black;
 }
 
 .content-third {
-    height: 700px;
-    background-image: url(../../Images/landscaping15.jpg);
+    background-image: url(../Images/landscaping15.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     color: black;
 }
 
 .owner-box {
     float: left;
     width: 32%;
-    height: 300px;
+    height: auto;
     margin: 2px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     color: black;
-    margin-bottom: 360px;
 }
 
-.owner1-image {
-    background-image: url(../../Images/Owner1.jpg);
+.owner-image {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
-.owner2-image {
-    background-image: url(../../Images/Owner2.jpg);
+@media (min-width: 768px) {
+    .text-background-left1 {
+        background-image: url(../Images/text_background1.png);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        opacity: 0.7;
+    }
 }
 
-.owner3-image {
-    background-image: url(../../Images/Owner3.jpg);
+@media (min-width: 768px) {
+    .text-background-left2 {
+        background-image: url(../Images/text_background2.png);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        opacity: 0.7;
+    }
 }
+
+@media (min-width: 768px) {
+    .text-background-left3 {
+        background-image: url(../Images/text_background3.png);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        opacity: 0.7;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-background-left {
+        background-color: forestgreen;
+        opacity: 0.7;
+        margin-right: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .text-background-left {
+        background-size: 50%;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .text-background-right1 {
+        background-image: url("../Images/text_background4.png");
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: right;
+        float: right;
+        opacity: 0.7;
+    }
+    .text-background-right2 {
+        background-image: url("../Images/text_background5.png");
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: right;
+        float: right;
+        opacity: 0.7;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .text-background-right {
+        background-color: forestgreen;
+        opacity: 0.7;
+        float: right;
+        margin-left: 50%;
+    }
+}
+
+@media (max-width: 992px) {
+    .text-background-right {
+        background-size: 50%;
+    }
+}
+
+
 
 
 .text-block-left {
     position: relative;
     top: 0px;
     left: 0px;
-    height: 700px;
-    background-color: forestgreen;
-    opacity: 0.7;
+    min-height: 700px;
+    bottom: auto;
     color: white;
     margin-right: 70%;
     padding-top: 10px;
@@ -229,14 +299,19 @@ responsive .middle {
     font-size: 20px;
 }
 
+@media (max-width: 768px) {
+    .text-block-left {
+        margin-right: 20%;
+        font-size: 16px;
+    }
+}
+
 .text-block-right {
     position: relative;
     float: right;
     top: 0px;
     right: 0px;
-    height: 700px;
-    background-color: forestgreen;
-    opacity: 0.7;
+    min-height: 700px;
     color: #fff;
     margin-left: 70%;
     padding-top: 10px;
@@ -246,14 +321,25 @@ responsive .middle {
     
 }
 
+@media (max-width: 992px) {
+    .text-block-right {
+        margin-left: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .text-block-right {
+        margin-left: 20%;
+        font-size: 16px;
+    }
+}
+
 .owner-text-block {
     position: relative;
-    top: 300px;
+    top: auto;
     right: 0px;
     color: #000;
-    padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 24px;
+    padding: 2px 24px 30px 2px;
     font-size: 20px;
 }
 
@@ -280,6 +366,12 @@ responsive .middle {
 
 .footer_text {
     margin-top: 15px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        width: 50%;
+    }
 }
 
 .link-colour1 {
