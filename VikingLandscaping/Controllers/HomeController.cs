@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Text;
 using System;
+using System.IO;
+using Newtonsoft.Json.Linq;
 
 namespace VikingLandscaping.Controllers
 {
@@ -63,7 +65,6 @@ namespace VikingLandscaping.Controllers
         public ActionResult Services()
         {
             ViewBag.Message = "Våra tjänster";
-            
             var services = JsonConvert.DeserializeObject<List<ServiceModel>>(System.IO.File.ReadAllText(Server.MapPath("~/Data/ServiceData.json"), Encoding.UTF8));
 
             return View(services);

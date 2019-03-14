@@ -1,49 +1,49 @@
 [
     {
       "id": 1,
-      "service": "Fastighetsskötsel-utemiljö, löpande skötsel och underhåll av Er trädgård",
+      "service": "FastighetsskÃ¶tsel-utemiljÃ¶, lÃ¶pande skÃ¶tsel och underhÃ¥ll av Er trÃ¤dgÃ¥rd",
       "details": "mumble mumble they took my stapler mumble mumble",
       "image": "../../Images/landscaping14.jpg"
     },
     {
       "id": 2,
-      "service": "Rådgivning, design, trädgårdsritningar och skötselplaner",
+      "service": "RÃ¥dgivning, design, trÃ¤dgÃ¥rdsritningar och skÃ¶tselplaner",
       "details": "mumble mumble they took my stapler mumble mumble",
       "image": "../../Images/landscaping11.jpg"
     },
     {
       "id": 3,
-      "service": "Anläggning och ombyggnad av utemiljöer",
+      "service": "AnlÃ¤ggning och ombyggnad av utemiljÃ¶er",
       "details": "mumble mumble they took my stapler mumble mumble",
       "image": "../../Images/landscaping08.jpg"
     },
     {
       "id": 4,
-      "service": "Plantering, grönyteskötsel, beskärning av buskar och träd, trädvård",
+      "service": "Plantering, grÃ¶nyteskÃ¶tsel, beskÃ¤rning av buskar och trÃ¤d, trÃ¤dvÃ¥rd",
       "details": "mumble mumble they took my stapler mumble mumble",
       "image": "../../Images/landscaping05.jpg"
     },
     {
       "id": 5,
-      "service": "Beläggningsarbeten; stensättning, plattläggning och betong",
+      "service": "BelÃ¤ggningsarbeten; stensÃ¤ttning, plattlÃ¤ggning och betong",
       "details": "mumble mumble they took my stapler mumble mumble",
       "image": "../../Images/landscaping08.jpg"
     },
     {
       "id": 6,
-      "service": "Byggnation av trädäck, plank, staket, murar, cykelförråd och miljöstationer",
+      "service": "Byggnation av trÃ¤dÃ¤ck, plank, staket, murar, cykelfÃ¶rrÃ¥d och miljÃ¶stationer",
       "details": "mumble mumble they took my stapler mumble mumble",
       "image": "../../Images/landscaping08.jpg"
     },
     {
       "id": 7,
-      "service": "Anläggning av gröna tak",
+      "service": "AnlÃ¤ggning av grÃ¶na tak",
       "details": "mumble mumble they took my stapler mumble mumble",
       "image": "../../Images/landscaping08.jpg"
     },
     {
       "id": 8,
-      "service": "Anläggning av trädgårdsdammar",
+      "service": "AnlÃ¤ggning av trÃ¤dgÃ¥rdsdammar",
       "details": "mumble mumble they took my stapler mumble mumble",
       "image": "../../Images/landscaping08.jpg"
     },
@@ -55,7 +55,7 @@
     },
     {
       "id": 10,
-      "service": "Underhåll av hårdytor, vinterunderhåll mm. mm.....",
+      "service": "UnderhÃ¥ll av hÃ¥rdytor, vinterunderhÃ¥ll mm. mm.....",
       "details": "mumble mumble they took my stapler mumble mumble",
       "image": "../../Images/landscaping08.jpg"
     }
