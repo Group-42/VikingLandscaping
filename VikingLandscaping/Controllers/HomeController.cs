@@ -5,6 +5,7 @@ using System.Net.Mail;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.Text;
+using System.Diagnostics;
 using System;
 using System.IO;
 using Newtonsoft.Json.Linq;
@@ -44,7 +45,7 @@ namespace VikingLandscaping.Controllers
             {
                 var body = "<p>Email From: {0} ({1})</p><p>Phone: {2}</p><p>Message:</p><p>{3}</p>";
                 var message = new MailMessage();
-                message.To.Add(new MailAddress("thedestroyingdestroyer@gmail.com")); //replace with valid value
+                message.To.Add(new MailAddress("thedestroyingdestroyer@gmail.com")); //TODO replace with company email
                 message.Subject = "Your email subject";
                 message.Body = string.Format(body, model.Name, model.Email, model.Phone, model.Message);
                 message.IsBodyHtml = true;
@@ -70,11 +71,10 @@ namespace VikingLandscaping.Controllers
             return View(services);
         }
 
-        public ActionResult Details()
+        public ActionResult Details(ServiceModel m)
         {
             ViewBag.Message = "Details";
-
-            return View();
+            return View(m);
         }
     }
 }

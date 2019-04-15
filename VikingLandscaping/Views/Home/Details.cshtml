@@ -1,7 +1,8 @@
-﻿
+﻿@model VikingLandscaping.Models.ServiceModel
 @{
-    ViewBag.Title = "Details";
+    ViewBag.Title = @Model.Service;
 }
 
-<h2>Details</h2>
-
+<h2>@Model.Service</h2>
+<img src="@Model.image" alt="Potato planting" width="600" height="400">
+<p>@Model.Details</p>
